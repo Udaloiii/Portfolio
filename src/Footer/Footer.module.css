@@ -1,0 +1,121 @@
+.mainFooter {
+    width: 100%;
+    min-height: 100vh;
+    /*margin: 0 auto;*/
+    background-color: #1b1b1e;
+}
+
+.contacts {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.inpTextArBlock {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputName {
+    width: 50%;
+    height: 35px;
+    background-color: #1870bb;
+    border: none;
+    padding: 0 10px;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.inputName:focus {
+    height: 45px;
+    outline: none;
+}
+
+.inputEmail {
+    margin-top: 20px;
+    width: 50%;
+    height: 35px;
+    background-color: #1870bb;
+    border: none;
+    padding: 0 10px;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.inputEmail:focus {
+    height: 45px;
+    outline: none;
+}
+
+.textArea {
+    display: block;
+    margin-top: 50px;
+    width: 50%;
+    min-height: 100px;
+    padding: 10px;
+    resize: none;
+    border: none;
+    background-color: #1870bb;
+    color: whitesmoke;
+    border-radius: 15px;
+}
+
+.textArea:focus {
+    min-height: 120px;
+    outline: none;
+}
+
+.buttonSend {
+    /*    margin-top: 50px;*/
+    /*    width: 70px;*/
+    /*    height: 40px;*/
+    /*    border-radius: 15px;*/
+    /*    background-color: #157acc;*/
+    /*    border: 1px solid #157acc;*/
+    /*color: #eeeeee;*/
+
+    text-decoration: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 50px 20px;
+    font-family: 'Montserrat', sans-serif;
+    /*font-size: 11px;*/
+    font-size: 9px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #f1f1f1;
+    /*background: white;*/
+    background: #1870bb;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+    transition: .1s;
+    border: none;
+}
+
+.buttonSend:hover {
+    letter-spacing: 4px;
+}
+
+.buttonSend:active {
+    /*background: #1870bb;*/
+    background: white;
+    box-shadow: 0 15px 30px #147dd9;
+    color: #1870bb;
+    letter-spacing: 1px;
+    transform: translateY(-7px);
+}
+
+input::-webkit-input-placeholder {
+    color: #1fc2c2;
+}
+
+textarea::-webkit-input-placeholder {
+    color: #1fc2c2;
+}

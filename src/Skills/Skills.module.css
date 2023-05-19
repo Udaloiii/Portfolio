@@ -1,0 +1,32 @@
+.mainSkillsBlock {
+    /*padding-top: 70px;*/
+    margin-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    /*background-color: aquamarine;*/
+}
+
+.container {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+}
+
+.skillsBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.titleBlock {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 855px) {
+    .skillsBlock {
+        justify-content: center;
+    }
+}

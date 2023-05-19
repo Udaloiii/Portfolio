@@ -1,0 +1,26 @@
+.mainBlock {
+    padding-top: 70px;
+    width: 100%;
+    min-height: 100vh;
+    /*background-color: beige;*/
+    display: flex;
+    /*flex-wrap: wrap;*/
+    word-wrap: break-word;
+}
+
+.container {
+    width: 80%;
+    border: 1px solid grey;
+    margin: 0 auto;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    word-wrap: break-word;
+}
+
+@media screen and (max-width: 752px) {
+    .container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+}

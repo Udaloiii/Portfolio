@@ -1,0 +1,22 @@
+.mainBlock {
+    margin: 25px 5px 5px 15px;
+    font-family: Centaur, sans-serif;
+    letter-spacing: 1px;
+    font-size: larger;
+    /*width: max-content;*/
+    text-indent: 25px;
+    word-wrap: break-word;
+    flex-wrap: wrap;
+}
+
+.mainBlock h2 {
+    font-family: "Californian FB", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

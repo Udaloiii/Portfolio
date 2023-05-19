@@ -1,0 +1,22 @@
+.main {
+    margin: 25px 15px 25px 15px;
+    width: 350px;
+    height: 350px;
+    border-radius: 200px;
+}
+
+@media screen and (max-width: 445px) {
+    .main {
+        width: 250px;
+        height: 250px;
+        margin: 15px 5px 15px 5px;
+    }
+}
+
+@media screen and (max-width: 312px) {
+    .main {
+        width: 200px;
+        height: 200px;
+        margin: 15px 5px 15px 5px;
+    }
+}
