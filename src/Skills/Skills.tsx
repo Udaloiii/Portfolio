@@ -4,7 +4,7 @@ import s from './Skills.module.css'
 
 export const Skills = () => {
     return (
-        <div  className={s.mainSkillsBlock} id={'skills'}>
+        <section  className={s.mainSkillsBlock} id={"skills"}>
             <div className={s.container}>
                 <div className={s.titleBlock}>
                     <h2>My skills</h2>
@@ -18,7 +18,7 @@ export const Skills = () => {
                     <Skill title="Unit-test"/>
                 </div>
             </div>
-    </div>
+    </section>
 
     );
 };

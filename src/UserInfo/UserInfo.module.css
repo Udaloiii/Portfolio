@@ -1,19 +1,19 @@
 .mainBlock {
-    padding-top: 70px;
+    /*padding-top: 50px;*/
+    margin-top: 60px;
     width: 100%;
-    min-height: 100vh;
-    /*background-color: beige;*/
+    height: 100vh;
+    /*min-height: 100vh;*/
     display: flex;
-    /*flex-wrap: wrap;*/
     word-wrap: break-word;
+    margin-bottom: 1px;
 }
 
 .container {
+    padding-top: 50px;
     width: 80%;
-    border: 1px solid grey;
     margin: 0 auto;
     display: flex;
-    /*flex-wrap: wrap;*/
     word-wrap: break-word;
 }
 

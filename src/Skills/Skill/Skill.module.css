@@ -1,12 +1,14 @@
 .mainSkillBlock {
     margin: 20px;
     /*width: 30%;*/
-    width: 300px;
+    width: 330px;
     height: max-content;
     background-color: #7979ff;
-    border: 1px solid grey;
+    /*border: 1px solid grey;*/
     border-radius: 15px;
-    box-shadow: 3px 3px #157acc;
+    box-shadow: 3px 3px 3px 3px #157acc;
+    z-index: 5;
+    transition: transform .3s;
 }
 
 .skillTitle {
@@ -39,6 +41,11 @@
 }
 
 .mainSkillBlock:hover {
-    width: 320px;
+    /*width: 305px;*/
+    transform: scale(1.1);
+    /*background-color: #8080f3;*/
+    /*box-shadow: 0 0 240px 240px #3498db inset, 0 0 0 0 #3498db;*/
+    /*z-index: 1;*/
+    transition: transform .5s;
 }
 

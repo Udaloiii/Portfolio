@@ -3,11 +3,10 @@
     width: 100%;
     /*margin: 0 auto;*/
     background-color: #1b1b1e;
-
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 99;
+    z-index: 100;
 }
 
 .linkBlock {
@@ -29,9 +28,9 @@
     margin: 10px;
     border-color: #3498db;
     color: #fff;
-    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
-    -webkit-transition: all 150ms ease-in-out;
-    transition: all 150ms ease-in-out;
+    /*box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;*/
+    /*-webkit-transition: all 150ms ease-in-out;*/
+    /*transition: all 150ms ease-in-out;*/
     text-decoration: none;
     border-radius: 5px;
     /*flex-wrap: wrap;*/

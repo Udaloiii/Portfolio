@@ -4,7 +4,7 @@ import s from './Footer.module.css'
 
 export const Footer = () => {
     return (
-        <footer className={s.mainFooter} id={'contacts'}>
+        <footer className={s.mainFooter} id={"contacts"} >
 
             <div className={s.contacts}>
                 <h2>Contacts</h2>

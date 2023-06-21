@@ -1,8 +1,10 @@
 .mainFooter {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
+    /*min-height: 100vh;*/
     /*margin: 0 auto;*/
     background-color: #1b1b1e;
+    margin-top: -1px;
 }
 
 .contacts {
