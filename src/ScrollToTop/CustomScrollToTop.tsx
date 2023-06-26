@@ -4,8 +4,6 @@ import s from './CustomScrollToTop.module.css'
 
 export const CustomScrollToTop = () => {
     return (
-        <div>
             <ScrollToTop smooth className={s.scrollToTop}/>
-        </div>
     );
 };
