@@ -6,6 +6,10 @@
     right: 30px;
 }
 
+.scrollToTop:hover {
+    background-color: #2886d2;
+}
+
 @media screen and (max-width: 650px) {
     .scrollToTop {
         width: 50px;
