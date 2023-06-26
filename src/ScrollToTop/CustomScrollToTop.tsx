@@ -1,15 +1,11 @@
 import React from 'react';
 import ScrollToTop from "react-scroll-to-top";
+import s from './ScrollToTop.module.css'
 
 export const CustomScrollToTop = () => {
     return (
         <div>
-            <ScrollToTop className="scrollToTop" style={{
-                "backgroundColor": "#157acc",
-                "borderRadius": "35px",
-                "width": "70px",
-                "height": "70px"
-            }} smooth/>
+            <ScrollToTop className={s.scrollToTop} smooth/>
         </div>
     );
 };

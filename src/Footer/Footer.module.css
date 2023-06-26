@@ -22,7 +22,7 @@
 }
 
 .inputName {
-    width: 50%;
+    width: 40%;
     height: 35px;
     background-color: #1870bb;
     border: none;
@@ -38,7 +38,7 @@
 
 .inputEmail {
     margin-top: 20px;
-    width: 50%;
+    width: 40%;
     height: 35px;
     background-color: #1870bb;
     border: none;
@@ -55,7 +55,7 @@
 .textArea {
     display: block;
     margin-top: 50px;
-    width: 50%;
+    width: 40%;
     min-height: 100px;
     padding: 10px;
     resize: none;
@@ -120,4 +120,18 @@ input::-webkit-input-placeholder {
 
 textarea::-webkit-input-placeholder {
     color: #1fc2c2;
+}
+
+@media screen and (max-width: 650px) {
+    .inputName {
+        width: 70%;
+    }
+
+    .inputEmail {
+        width: 70%;
+    }
+
+    .textArea {
+        width: 70%;
+    }
 }

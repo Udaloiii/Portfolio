@@ -1,0 +1,16 @@
+.scrollToTop {
+    width: 70px;
+    height: 70px;
+    background-color: #157acc;
+    border-radius: 35px;
+    right: 30px;
+}
+
+@media screen and (max-width: 650px) {
+    .scrollToTop {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        right: 5px;
+    }
+}
