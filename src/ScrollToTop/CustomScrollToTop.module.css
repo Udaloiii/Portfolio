@@ -1,4 +1,4 @@
-.scrollToTop {
+.mainScrollBlock {
     width: 70px;
     height: 70px;
     background-color: #157acc;
@@ -6,12 +6,12 @@
     right: 30px;
 }
 
-.scrollToTop:hover {
+.mainScrollBlock:hover {
     background-color: #2886d2;
 }
 
 @media screen and (max-width: 650px) {
-    .scrollToTop {
+    .mainScrollBlock {
         width: 50px;
         height: 50px;
         border-radius: 25px;

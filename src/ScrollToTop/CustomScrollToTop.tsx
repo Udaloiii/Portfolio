@@ -4,6 +4,6 @@ import s from './CustomScrollToTop.module.css'
 
 export const CustomScrollToTop = () => {
     return (
-            <ScrollToTop smooth className={s.scrollToTop}/>
+            <ScrollToTop smooth className={s.mainScrollBlock}/>
     );
 };
