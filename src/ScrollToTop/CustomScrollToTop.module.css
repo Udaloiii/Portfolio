@@ -1,17 +1,17 @@
 .mainScrollBlock {
-    width: 70px;
-    height: 70px;
-    background-color: #157acc;
-    border-radius: 35px;
-    right: 30px;
+    width: 70px !important;
+    height: 70px !important;
+    background-color: #157acc !important;
+    border-radius: 35px !important;
+    right: 30px !important;
 }
 
 @media screen and (max-width: 650px) {
     .mainScrollBlock {
-        width: 50px;
-        height: 50px;
-        border-radius: 25px;
-        right: 5px;
+        width: 50px !important;
+        height: 50px !important;
+        border-radius: 25px !important;
+        right: 5px !important;
     }
 }
 
