@@ -10,12 +10,12 @@ import {CustomScrollToTop} from "./ScrollToTop/CustomScrollToTop";
 function App() {
     return (
         <div className="App">
+            <CustomScrollToTop/>
             <Header/>
             <UserInfo/>
             <Skills/>
             <MyWorks/>
             <Footer/>
-            <CustomScrollToTop/>
         </div>
     );
 }
