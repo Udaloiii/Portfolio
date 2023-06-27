@@ -6,10 +6,6 @@
     right: 30px;
 }
 
-.mainScrollBlock:hover {
-    background-color: #2886d2;
-}
-
 @media screen and (max-width: 650px) {
     .mainScrollBlock {
         width: 50px;
@@ -17,4 +13,8 @@
         border-radius: 25px;
         right: 5px;
     }
+}
+
+.mainScrollBlock:hover {
+    background-color: #2886d2;
 }
