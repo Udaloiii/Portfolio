@@ -1,8 +1,6 @@
 .mainFooter {
     width: 100%;
     height: 100vh;
-    /*min-height: 100vh;*/
-    /*margin: 0 auto;*/
     background-color: #1b1b1e;
     margin-top: -1px;
 }
@@ -71,14 +69,6 @@
 }
 
 .buttonSend {
-    /*    margin-top: 50px;*/
-    /*    width: 70px;*/
-    /*    height: 40px;*/
-    /*    border-radius: 15px;*/
-    /*    background-color: #157acc;*/
-    /*    border: 1px solid #157acc;*/
-    /*color: #eeeeee;*/
-
     text-decoration: none;
     display: inline-block;
     width: 140px;
@@ -87,18 +77,17 @@
     border-radius: 45px;
     margin: 50px 20px;
     font-family: 'Montserrat', sans-serif;
-    /*font-size: 11px;*/
     font-size: 9px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
     font-weight: 600;
     color: #f1f1f1;
-    /*background: white;*/
     background: #1870bb;
     box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
     transition: .1s;
     border: none;
+    cursor: pointer;
 }
 
 .buttonSend:hover {
@@ -106,7 +95,6 @@
 }
 
 .buttonSend:active {
-    /*background: #1870bb;*/
     background: white;
     box-shadow: 0 15px 30px #147dd9;
     color: #1870bb;
@@ -115,11 +103,13 @@
 }
 
 input::-webkit-input-placeholder {
-    color: #1fc2c2;
+    /*color: #1fc2c2;*/
+    color: CadetBlue;
 }
 
 textarea::-webkit-input-placeholder {
-    color: #1fc2c2;
+    /*color: #1fc2c2;*/
+    color: CadetBlue;
 }
 
 @media screen and (max-width: 650px) {
