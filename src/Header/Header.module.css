@@ -1,7 +1,6 @@
 .mainBlock {
     height: 70px;
     width: 100%;
-    /*margin: 0 auto;*/
     background-color: #1b1b1e;
     position: fixed;
     top: 0;
@@ -14,7 +13,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    /*margin: 10px;*/
 }
 
 .link {
@@ -23,27 +21,13 @@
     align-items: center;
     width: 90px;
     height: 30px;
-    /*width: 7%;*/
-    /*height: 40%;*/
     margin: 10px;
     border-color: #3498db;
     color: #fff;
-    /*box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;*/
-    /*-webkit-transition: all 150ms ease-in-out;*/
-    /*transition: all 150ms ease-in-out;*/
     text-decoration: none;
     border-radius: 5px;
-    /*flex-wrap: wrap;*/
+    cursor: pointer;
 }
-
-/*.third {*/
-/*    border-color: #3498db;*/
-/*    color: #fff;*/
-/*    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;*/
-/*    -webkit-transition: all 150ms ease-in-out;*/
-/*    transition: all 150ms ease-in-out;*/
-/*}*/
-
 
 .link:hover {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 10px #3498db;
@@ -56,26 +40,18 @@
 
 @media screen and (max-width: 752px) {
     .link {
-        /*width: 60px;*/
-        /*height: 20px;*/
         font-size: 80%;
         margin: 10px;
     }
+
     .linkBlock {
         justify-content: center;
     }
 }
 
 
-
-
-@media screen and (max-width: 350px){
-.link {
-    /*width: 60px;*/
-    /*height: 20px;*/
-    font-size: 65%;
-}
-    /*.linkBlock {*/
-    /*    justify-content: center;*/
-    /*}*/
+@media screen and (max-width: 350px) {
+    .link {
+        font-size: 65%;
+    }
 }
