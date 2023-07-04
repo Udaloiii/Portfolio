@@ -1,0 +1,15 @@
+.levelTwo {
+    font-size: 30px;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px black;
+    font-family: 'Monoton', cursive;
+}
+
+.levelThree {
+    font-family: 'Neucha', cursive;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: Ivory;
+    text-shadow: 1px 1px #1d3056;
+}
