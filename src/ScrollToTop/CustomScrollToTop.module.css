@@ -6,6 +6,12 @@
     right: 30px !important;
 }
 
+.mainScrollBlock:active {
+    background-color: #2f89d3 !important;
+    width: 68px !important;
+    height: 68px !important;
+}
+
 @media screen and (max-width: 650px) {
     .mainScrollBlock {
         width: 50px !important;
@@ -13,10 +19,11 @@
         border-radius: 25px !important;
         right: 5px !important;
     }
+    .mainScrollBlock:active {
+        background-color: #2f89d3 !important;
+        width: 48px !important;
+        height: 48px !important;
+    }
 }
 
-.mainScrollBlock:active {
-    background-color: #2f89d3 !important;
-    width: 65px !important;
-    height: 65px !important;
-}
+
