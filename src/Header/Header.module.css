@@ -13,6 +13,9 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+    font-size: 20px;
 }
 
 .link {
@@ -35,15 +38,15 @@
 
 .active {
     box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color: #3ea9f3;
 }
 
 
 @media screen and (max-width: 752px) {
     .link {
         font-size: 80%;
-        margin: 10px;
+        /*margin: 10px;*/
     }
-
     .linkBlock {
         justify-content: center;
     }
