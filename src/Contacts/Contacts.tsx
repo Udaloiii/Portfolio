@@ -1,13 +1,15 @@
 import React from 'react';
-import s from './Footer.module.css'
+import s from './Contacts.module.css'
+import {Title} from "../Title/Title";
 
 
-export const Footer = () => {
+export const Contacts = () => {
     return (
         <footer className={s.mainFooter} id={"contacts"} >
 
             <div className={s.contacts}>
-                <h2>Contacts</h2>
+                {/*<h2>Contacts</h2>*/}
+                <Title value={"h2"} title={"Contacts"}/>
             </div>
 
             <div className={s.inpTextArBlock}>
