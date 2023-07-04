@@ -7,7 +7,7 @@ type SkillPropsType = {
     icon: string
 }
 export const Skill = (props: SkillPropsType) => {
-    const {title,icon, ...otherProps} = props
+    const {title,icon} = props
     return (
         <div className={s.mainSkillBlock}>
             {/*<h3 className={s.skillTitle}>*/}
