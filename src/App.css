@@ -1,10 +1,30 @@
 .App {
-    /*width: 80%;*/
-    /*margin: 0 auto;*/
-    /*background-color: blanchedalmond;*/
-    background-image: url("/src/Image/abstract-textured-backgound (1).jpg");
-    background-position: 50% 50%;
+    background-image: url("/src/Image/3d-abstract-space-background-with-wireframe-landscape.jpg");
+    background-size: cover;
+    /*background-size: contain;*/
+    /*background-position: 50% 50%;*/
+    background-position: center;
+    background-attachment: fixed;
     /*background-position: center;*/
-    background-repeat: no-repeat;
-    background-size: auto 100%;
+    /*background-repeat: no-repeat;*/
+    /*background-repeat: repeat-y;*/
+    /*background-size: auto 100%;*/
+
 }
+
+/*.App {*/
+
+/*    background-image: linear-gradient(to bottom, LightBlue, RoyalBlue);*/
+/*    background-attachment: fixed;*/
+/*    background-repeat: repeat;*/
+/*}*/
+
+
+/*h2{*/
+/*    !*font-family: 'Special Elite', cursive;*!*/
+/*    font-size: 30px;*/
+/*    color: whitesmoke;*/
+/*    letter-spacing: 2px;*/
+/*    text-shadow: 2px 2px black;*/
+/*    font-family: 'Monoton', cursive;*/
+/*}*/

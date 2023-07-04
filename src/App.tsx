@@ -3,7 +3,7 @@ import './App.css';
 import {Header} from "./Header/Header";
 import {UserInfo} from "./UserInfo/UserInfo";
 import {Skills} from "./Skills/Skills";
-import {Footer} from "./Footer/Footer";
+import {Contacts} from "./Contacts/Contacts";
 import {MyWorks} from "./MyWorks/MyWorks";
 import {CustomScrollToTop} from "./ScrollToTop/CustomScrollToTop";
 
@@ -15,7 +15,7 @@ function App() {
             <UserInfo/>
             <Skills/>
             <MyWorks/>
-            <Footer/>
+            <Contacts/>
         </div>
     );
 }
