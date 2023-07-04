@@ -22,7 +22,7 @@ export const Header = () => {
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      offset={-65}
+                      offset={-70}
                       duration={500}>
                     Skills
                 </Link>
@@ -32,7 +32,7 @@ export const Header = () => {
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      offset={-65}
+                      offset={-70}
                       duration={500}>
                     My works
                 </Link>
@@ -41,7 +41,7 @@ export const Header = () => {
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      offset={-60}
+                      offset={-69}
                       duration={500}>
                     Contacts
                 </Link>
