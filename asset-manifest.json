@@ -1,17 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.eb26ab60.css",
-    "main.js": "/Portfolio/static/js/main.dd9485d8.js",
+    "main.css": "/Portfolio/static/css/main.7699c7b5.css",
+    "main.js": "/Portfolio/static/js/main.d90fedf5.js",
     "static/js/787.35fe7324.chunk.js": "/Portfolio/static/js/787.35fe7324.chunk.js",
-    "static/media/abstract-textured-backgound (1).jpg": "/Portfolio/static/media/abstract-textured-backgound (1).b7379c45cde9746558f0.jpg",
+    "static/media/3d-abstract-space-background-with-wireframe-landscape.jpg": "/Portfolio/static/media/3d-abstract-space-background-with-wireframe-landscape.2bb4f6ee2b169b411833.jpg",
     "static/media/Screenshot_2021-04-19-22-09-33-748_com.mxtech.videoplayer.pro~2d.jpg": "/Portfolio/static/media/Screenshot_2021-04-19-22-09-33-748_com.mxtech.videoplayer.pro~2d.fa494663ecbd98e6f0c7.jpg",
+    "static/media/sass.svg": "/Portfolio/static/media/sass.e474d03b30304904fdbd747b9eebc349.svg",
+    "static/media/redux.svg": "/Portfolio/static/media/redux.906ea859746e7dc0f85d1bd13fb50496.svg",
+    "static/media/redux (1).svg": "/Portfolio/static/media/redux (1).e28b8e8424ec966cf220d416b80d4721.svg",
+    "static/media/react-dark.svg": "/Portfolio/static/media/react-dark.9159dbc7c8dbfe8391fa8745dc79332a.svg",
+    "static/media/typescript.svg": "/Portfolio/static/media/typescript.8678d2ab34e53e251ec9b9b0a6c31476.svg",
+    "static/media/git.svg": "/Portfolio/static/media/git.a354f954655eae5e3b8462a20c9edc08.svg",
     "index.html": "/Portfolio/index.html",
-    "main.eb26ab60.css.map": "/Portfolio/static/css/main.eb26ab60.css.map",
-    "main.dd9485d8.js.map": "/Portfolio/static/js/main.dd9485d8.js.map",
+    "static/media/css.svg": "/Portfolio/static/media/css.541bed1d54fde839d309f8f8a863fb2f.svg",
+    "static/media/api-outlined.svg": "/Portfolio/static/media/api-outlined.d877fcac93e12b222e90b4fd0ef0d43e.svg",
+    "static/media/axios (1).svg": "/Portfolio/static/media/axios (1).1ce3895d4e971b84898a4902e02b3fd1.svg",
+    "main.7699c7b5.css.map": "/Portfolio/static/css/main.7699c7b5.css.map",
+    "main.d90fedf5.js.map": "/Portfolio/static/js/main.d90fedf5.js.map",
     "787.35fe7324.chunk.js.map": "/Portfolio/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb26ab60.css",
-    "static/js/main.dd9485d8.js"
+    "static/css/main.7699c7b5.css",
+    "static/js/main.d90fedf5.js"
   ]
 }
