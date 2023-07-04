@@ -7,13 +7,16 @@
     text-indent: 25px;
     word-wrap: break-word;
     flex-wrap: wrap;
+    /*background-color: white;*/
 }
 
-.mainBlock h2 {
-    font-family: "Californian FB", sans-serif;
-    letter-spacing: 1px;
-    font-weight: 100;
-}
+/*.mainBlock h2 {*/
+/*    font-family: "Californian FB", sans-serif;*/
+/*    letter-spacing: 1px;*/
+/*    font-weight: 100;*/
+
+/*поменять помом  шрифты и доделать*/
+/*}*/
 
 .title {
     width: 100%;
