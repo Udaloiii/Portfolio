@@ -31,10 +31,10 @@
 
 @media screen and (max-width: 855px) {
     .mainSkillsBlock {
-        padding-top: 5px;
+        padding-top: 0;
         height: max-content;
-        margin-top: -18px;
-        margin-bottom: 55px;
+        margin-top: -3px;
+        /*margin-bottom: 72px;*/
     }
     .skillsBlock {
         justify-content: center;

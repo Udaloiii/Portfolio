@@ -41,7 +41,8 @@ export const Header = () => {
                       spy={true}
                       smooth={true}
                     // offset={-60}
-                      offset={-59}
+                    //   offset={-59}
+                      offset={-75}
                       duration={500}
                       isDynamic={true}
                       ignoreCancelEvents={true}
