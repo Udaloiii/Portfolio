@@ -5,7 +5,7 @@ import {Title} from "../Title/Title";
 
 export const MyWorks = () => {
     return (
-        <div className={s.main} id={"works"} >
+        <div className={s.main} id="works" >
             <div className={s.block}>
                 <div className={s.titleBlock}>
                     {/*<h2>My works</h2>*/}

@@ -23,34 +23,24 @@ export const Skills = () => {
         {id: 2, name: "SASS", icon: sassLogo},
         {id: 3, name: "TypeScript", icon: typescriptLogo},
         {id: 4, name: "React", icon: reactLogo},
-        {id: 6, name: "Redux", icon: reduxLogo},
-        {id: 5, name: "Redux Toolkit", icon: reduxToolkitLogo},
+        {id: 5, name: "Redux", icon: reduxLogo},
+        {id: 6, name: "Redux Toolkit", icon: reduxToolkitLogo},
         {id: 7, name: "GIT", icon: gitLogo},
         {id: 8, name: "REST-API", icon: apiLogo},
         {id: 9, name: "Axios", icon: axiosLogo},
     ]
     return (
-        <section className={s.mainSkillsBlock} id={"skills"}>
+        <section className={s.mainSkillsBlock}
+                 id="skills">
             <div className={s.container}>
                 <div className={s.titleBlock}>
                     {/*<h2>My skills</h2>*/}
                     <Title value={"h2"} title={"My skills"}/>
                 </div>
                 <div className={s.skillsBlock}>
-                    {/*<Skill title="HTML/CSS"/>*/}
-                    {/*<Skill title="JS/TS"/>*/}
-                    {/*<Skill title="React"/>*/}
-                    {/*<Skill title="Redux"/>*/}
-                    {/*<Skill title="Git"/>*/}
-                    {/*<Skill title="Unit-test"/>*/}
-                    {scills.map(el => {
-                        return (
-                            <Skill key={el.id} title={el.name} icon={el.icon}/>
-                        )
-                    })}
+                    {scills.map(el => <Skill key={el.id} title={el.name} icon={el.icon}/>)}
                 </div>
             </div>
         </section>
-
     );
 };

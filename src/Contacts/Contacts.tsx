@@ -5,10 +5,9 @@ import {Title} from "../Title/Title";
 
 export const Contacts = () => {
     return (
-        <footer className={s.mainFooter} id={"contacts"} >
+        <footer className={s.mainFooter} id="contacts" >
 
             <div className={s.contacts}>
-                {/*<h2>Contacts</h2>*/}
                 <Title value={"h2"} title={"Contacts"}/>
             </div>
 

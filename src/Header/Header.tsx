@@ -6,43 +6,76 @@ export const Header = () => {
     return (
         <header className={s.mainBlock}>
             <div className={s.linkBlock}>
-                <Link
-                    className={s.link}
-                    to={"about"}
-                    activeClass={s.active}
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}>
+                {/*<Link*/}
+                {/*    className={s.link}*/}
+                {/*    to="about"*/}
+                {/*    activeClass={s.active}*/}
+                {/*    spy={true}*/}
+                {/*    smooth={true}*/}
+                {/*    offset={-70}*/}
+                {/*    duration={500}*/}
+                {/*    isDynamic={true}*/}
+                {/*    ignoreCancelEvents={false}*/}
+                {/*    spyThrottle={500}*/}
+                {/*    hashSpy={true}*/}
+                {/*>*/}
+                {/*    About me*/}
+                {/*</Link>*/}
+                <Link to="about"
+                      className={s.link}
+                      activeClass={s.active}
+                      spy={true}
+                      smooth={true}
+                      offset={-70}
+                      duration={500}
+                      isDynamic={true}
+                      ignoreCancelEvents={true}
+                      spyThrottle={150}
+                >
                     About me
                 </Link>
 
-                <Link className={s.link}
-                      to={"skills"}
+                <Link to="skills"
                       activeClass={s.active}
+                      className={s.link}
                       spy={true}
                       smooth={true}
-                      offset={-70}
-                      duration={500}>
+                    // offset={-60}
+                      offset={-59}
+                      duration={500}
+                      isDynamic={true}
+                      ignoreCancelEvents={true}
+                      spyThrottle={350}
+                >
                     Skills
                 </Link>
 
-                <Link className={s.link}
-                      to={"works"}
+                <Link to="works"
+                      className={s.link}
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      offset={-70}
-                      duration={500}>
+                      // offset={-65}
+                      offset={-59}
+                      duration={500}
+                      isDynamic={true}
+                      ignoreCancelEvents={true}
+                      spyThrottle={150}
+
+                >
                     My works
                 </Link>
-                <Link className={s.link}
-                      to={"contacts"}
+                <Link to="contacts"
+                      className={s.link}
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      offset={-69}
-                      duration={500}>
+                      offset={-59}
+                      duration={500}
+                      isDynamic={true}
+                      ignoreCancelEvents={true}
+                      spyThrottle={150}
+                >
                     Contacts
                 </Link>
             </div>

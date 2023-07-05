@@ -1,4 +1,5 @@
 .mainBlock {
+    height: max-content;
     margin: 25px 5px 5px 15px;
     font-family: Centaur, sans-serif;
     letter-spacing: 1px;
@@ -23,3 +24,10 @@
     display: flex;
     justify-content: center;
 }
+
+/*@media screen and (max-width: 752px) {*/
+/*    .mainBlock {*/
+/*        margin: 10px 3px 3px 5px;*/
+/*    }*/
+
+/*}*/

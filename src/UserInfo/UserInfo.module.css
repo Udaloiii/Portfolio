@@ -1,13 +1,11 @@
 .mainBlock {
-    padding-top: 60px;
-    /*margin-top: 60px;*/
+    margin-top: 70px;
     width: 100%;
-    /*min-height: 100vh;*/
-    /*height: 100vh;*/
     height: 100vh;
+    /*height: 100vh;*/
     display: flex;
     word-wrap: break-word;
-    margin-bottom: 1px;
+    margin-bottom: 50px;
 }
 
 .container {
@@ -19,9 +17,9 @@
 }
 
 @media screen and (max-width: 752px) {
-    /*.mainBlock {*/
-    /*    height: max-content;*/
-    /*}*/
+    .mainBlock {
+        /*height: max-content;*/
+    }
     .container {
         flex-direction: column;
         justify-content: flex-start;

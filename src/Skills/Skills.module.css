@@ -6,7 +6,8 @@
     /*min-height: 100vh;*/
 
     /*margin-bottom: 1px;*/
-    /*margin-top: -1px;*/
+    margin-top: -2px;
+    margin-bottom: 52px;
 }
 
 .container {
@@ -27,15 +28,13 @@
     justify-content: center;
 }
 
-/*.titleBlock h2 {*/
-/*    font-family: Courier , sans-serif;*/
-/*    font-size: xx-large;*/
-/*}*/
 
 @media screen and (max-width: 855px) {
     .mainSkillsBlock {
         padding-top: 5px;
         height: max-content;
+        margin-top: -18px;
+        margin-bottom: 55px;
     }
     .skillsBlock {
         justify-content: center;
