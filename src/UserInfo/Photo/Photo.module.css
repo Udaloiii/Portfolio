@@ -1,14 +1,30 @@
 .main {
     margin: 25px 15px 25px 15px;
-    width: 350px;
-    height: 350px;
+    /*width: 350px;*/
+    /*height: 350px;*/
+    width: 550px;
+    height: 486px;
     border-radius: 200px;
+    box-shadow: 5px 1px 5px 1px#1870bb;
+    /*background-image: url("../../Image/IMG_987asd1-transformed.png");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*box-shadow: 0px 35px 60px 20px#1870bb;*/
+    filter: drop-shadow(3px 3px 3px #1870bb);
+}
+
+@media screen and (max-width: 752px) {
+    .main {
+        width: 350px;
+        height: 421px;
+        margin: 15px 5px 15px 5px;
+    }
 }
 
 @media screen and (max-width: 445px) {
     .main {
         width: 250px;
-        height: 250px;
+        height: 301px;
         margin: 15px 5px 15px 5px;
     }
 }
@@ -16,7 +32,7 @@
 @media screen and (max-width: 312px) {
     .main {
         width: 200px;
-        height: 200px;
+        height: 240px;
         margin: 15px 5px 15px 5px;
     }
 }

@@ -40,9 +40,8 @@ export const Header = () => {
                       className={s.link}
                       spy={true}
                       smooth={true}
-                    // offset={-60}
-                    //   offset={-59}
-                      offset={-75}
+                      // offset={-69}
+                      offset={-64}
                       duration={500}
                       isDynamic={true}
                       ignoreCancelEvents={true}
@@ -57,12 +56,11 @@ export const Header = () => {
                       spy={true}
                       smooth={true}
                       // offset={-65}
-                      offset={-59}
+                      offset={-52}
                       duration={500}
                       isDynamic={true}
                       ignoreCancelEvents={true}
                       spyThrottle={150}
-
                 >
                     My works
                 </Link>
@@ -71,7 +69,8 @@ export const Header = () => {
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      offset={-59}
+                      // offset={-57}
+                      offset={-53}
                       duration={500}
                       isDynamic={true}
                       ignoreCancelEvents={true}
