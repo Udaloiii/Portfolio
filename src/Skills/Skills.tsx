@@ -10,6 +10,8 @@ import reactLogo from '../Image/icons/react-dark.svg';
 import axiosLogo from '../Image/icons/axios (1).svg';
 import sassLogo from '../Image/icons/sass.svg';
 import reduxToolkitLogo from '../Image/icons/redux (1).svg';
+import styledComponents from '../Image/icons/styledcomponents.svg';
+import storyBook from '../Image/icons/storybook (1).svg';
 import {Title} from "../Title/Title";
 
 type ScillsType = {
@@ -28,6 +30,8 @@ export const Skills = () => {
         {id: 7, name: "GIT", icon: gitLogo},
         {id: 8, name: "REST-API", icon: apiLogo},
         {id: 9, name: "Axios", icon: axiosLogo},
+        {id: 10, name: "Styled Components", icon: styledComponents},
+        {id: 11, name: "Storybook", icon: storyBook},
     ]
     return (
         <section className={s.mainSkillsBlock}
