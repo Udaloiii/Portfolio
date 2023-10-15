@@ -21,12 +21,12 @@ type ScillsType = {
 }
 export const Skills = () => {
     const scills: ScillsType[] = [
-        {id: 1, name: "CSS", icon: cssLogo},
-        {id: 2, name: "SASS", icon: sassLogo},
-        {id: 3, name: "TypeScript", icon: typescriptLogo},
+        {id: 1, name: "TypeScript", icon: typescriptLogo},
+        {id: 2, name: "Redux", icon: reduxLogo},
+        {id: 3, name: "Redux Toolkit", icon: reduxToolkitLogo},
         {id: 4, name: "React", icon: reactLogo},
-        {id: 5, name: "Redux", icon: reduxLogo},
-        {id: 6, name: "Redux Toolkit", icon: reduxToolkitLogo},
+        {id: 5, name: "CSS", icon: cssLogo},
+        {id: 6, name: "SASS", icon: sassLogo},
         {id: 7, name: "GIT", icon: gitLogo},
         {id: 8, name: "REST-API", icon: apiLogo},
         {id: 9, name: "Axios", icon: axiosLogo},

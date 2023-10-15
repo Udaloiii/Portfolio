@@ -5,7 +5,7 @@ import {Description} from "./Description/Description";
 
 export const UserInfo = () => {
     return (
-        <section className={s.mainBlock} id={"about"} >
+        <section className={s.mainBlock} id={"about"}>
             <div className={s.container}>
                 <Photo/>
                 <Description/>
