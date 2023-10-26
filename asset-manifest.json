@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.90da4a36.css",
+    "main.css": "/Portfolio/static/css/main.dd7d85dd.css",
     "main.js": "/Portfolio/static/js/main.d572bcfb.js",
     "static/js/787.35fe7324.chunk.js": "/Portfolio/static/js/787.35fe7324.chunk.js",
     "static/media/snapedit_obrez1.png": "/Portfolio/static/media/snapedit_obrez1.59afe31cae7337cd2743.png",
@@ -17,12 +17,12 @@
     "static/media/css.svg": "/Portfolio/static/media/css.541bed1d54fde839d309f8f8a863fb2f.svg",
     "static/media/api-outlined.svg": "/Portfolio/static/media/api-outlined.d877fcac93e12b222e90b4fd0ef0d43e.svg",
     "static/media/axios (1).svg": "/Portfolio/static/media/axios (1).1ce3895d4e971b84898a4902e02b3fd1.svg",
-    "main.90da4a36.css.map": "/Portfolio/static/css/main.90da4a36.css.map",
+    "main.dd7d85dd.css.map": "/Portfolio/static/css/main.dd7d85dd.css.map",
     "main.d572bcfb.js.map": "/Portfolio/static/js/main.d572bcfb.js.map",
     "787.35fe7324.chunk.js.map": "/Portfolio/static/js/787.35fe7324.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.90da4a36.css",
+    "static/css/main.dd7d85dd.css",
     "static/js/main.d572bcfb.js"
   ]
 }
