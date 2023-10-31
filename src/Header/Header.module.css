@@ -5,7 +5,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+    right: 0;
+    z-index: 99999;
 }
 
 .linkBlock {
@@ -30,6 +31,7 @@
     text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
+    user-select: none;
 }
 
 .link:hover {

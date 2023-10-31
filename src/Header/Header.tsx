@@ -6,31 +6,12 @@ export const Header = () => {
     return (
         <header className={s.mainBlock}>
             <div className={s.linkBlock}>
-                {/*<Link*/}
-                {/*    className={s.link}*/}
-                {/*    to="about"*/}
-                {/*    activeClass={s.active}*/}
-                {/*    spy={true}*/}
-                {/*    smooth={true}*/}
-                {/*    offset={-70}*/}
-                {/*    duration={500}*/}
-                {/*    isDynamic={true}*/}
-                {/*    ignoreCancelEvents={false}*/}
-                {/*    spyThrottle={500}*/}
-                {/*    hashSpy={true}*/}
-                {/*>*/}
-                {/*    About me*/}
-                {/*</Link>*/}
                 <Link to="about"
                       className={s.link}
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
                       offset={-70}
-                      duration={500}
-                      isDynamic={true}
-                      ignoreCancelEvents={true}
-                      spyThrottle={150}
                 >
                     About me
                 </Link>
@@ -40,12 +21,8 @@ export const Header = () => {
                       className={s.link}
                       spy={true}
                       smooth={true}
-                      // offset={-69}
-                      offset={-64}
-                      duration={500}
-                      isDynamic={true}
-                      ignoreCancelEvents={true}
-                      spyThrottle={350}
+                      offset={-69}
+
                 >
                     Skills
                 </Link>
@@ -55,12 +32,7 @@ export const Header = () => {
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      // offset={-65}
-                      offset={-52}
-                      duration={500}
-                      isDynamic={true}
-                      ignoreCancelEvents={true}
-                      spyThrottle={150}
+                      offset={-68}
                 >
                     My works
                 </Link>
@@ -69,12 +41,7 @@ export const Header = () => {
                       activeClass={s.active}
                       spy={true}
                       smooth={true}
-                      // offset={-57}
-                      offset={-53}
-                      duration={500}
-                      isDynamic={true}
-                      ignoreCancelEvents={true}
-                      spyThrottle={150}
+                      offset={-67}
                 >
                     Contacts
                 </Link>
