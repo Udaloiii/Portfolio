@@ -1,12 +1,9 @@
 .mainSkillsBlock {
-    padding-top: 20px;
+    padding: 20px 0;
     /*margin-top: 60px;*/
     width: 100%;
     min-height: 100vh;
 
-    /*margin-bottom: 1px;*/
-    margin-top: -2px;
-    margin-bottom: 52px;
 }
 
 .container {
@@ -30,9 +27,8 @@
 
 @media screen and (max-width: 855px) {
     .mainSkillsBlock {
-        padding-top: 0;
         height: max-content;
-        margin-top: -3px;
+        margin-top: -1px;
         /*margin-bottom: 72px;*/
     }
     .skillsBlock {

@@ -1,10 +1,10 @@
 .mainBlock {
+    /*padding: 20px 0;*/
     margin-top: 70px;
     width: 100%;
     height: 100vh;
     display: flex;
     word-wrap: break-word;
-    margin-bottom: 50px;
 }
 
 .container {
@@ -19,6 +19,7 @@
 @media screen and (max-width: 752px) {
     .mainBlock {
         /*height: max-content;*/
+        /*margin-bottom: 1px;*/
     }
     .container {
         flex-direction: column;
