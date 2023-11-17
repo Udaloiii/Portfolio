@@ -5,6 +5,10 @@
     background-color: #1b1b1e;
 
     /*margin-top: -1px;*/
+
+    & input, & button, & textarea {
+        position: relative;
+    }
 }
 
 .contacts {
@@ -15,46 +19,33 @@
 
 
 .inpTextArBlock {
+    padding: 20px 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
 }
 
-.inputName {
+.inputName, .inputEmail {
     width: 40%;
-    height: 35px;
+    height: 40px;
     background-color: #1870bb;
     border: none;
     padding: 0 10px;
     color: whitesmoke;
-    border-radius: 15px;
+    border-radius: 8px;
+    transition: .2s;
+
+    &:focus {
+        transform: scaleY(1.2);
+        transition: .2s;
+        outline: 1px solid #1870bb;
+    }
 }
 
-.inputName:focus {
-    height: 45px;
-    outline: none;
-}
-
-.inputEmail {
-    margin-top: 20px;
-    width: 40%;
-    height: 35px;
-    background-color: #1870bb;
-    border: none;
-    padding: 0 10px;
-    color: whitesmoke;
-    border-radius: 15px;
-}
-
-.inputEmail:focus {
-    height: 45px;
-    outline: none;
-}
 
 .textArea {
-    display: block;
-    margin-top: 50px;
     width: 40%;
     min-height: 100px;
     padding: 10px;
@@ -62,12 +53,14 @@
     border: none;
     background-color: #1870bb;
     color: whitesmoke;
-    border-radius: 15px;
-}
+    border-radius: 10px;
+    transition: .2s;
 
-.textArea:focus {
-    min-height: 120px;
-    outline: none;
+    &:focus {
+        transform: scaleY(1.15);
+        transition: .2s;
+        outline: 1px solid #1870bb;
+    }
 }
 
 .buttonSend {
@@ -105,7 +98,6 @@
 }
 
 input::-webkit-input-placeholder {
-    /*color: #1fc2c2;*/
     color: CadetBlue;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 2px;
@@ -113,7 +105,6 @@ input::-webkit-input-placeholder {
 }
 
 textarea::-webkit-input-placeholder {
-    /*color: #1fc2c2;*/
     color: CadetBlue;
     font-family: 'Amatic SC', cursive;
     letter-spacing: 2px;
@@ -124,6 +115,7 @@ textarea::-webkit-input-placeholder {
     .contacts {
         padding-top: 5px;
     }
+
     .inputName {
         width: 70%;
     }
